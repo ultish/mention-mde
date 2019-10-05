@@ -1,7 +1,6 @@
 # mention-mde
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A test that merges ember-simplemde with ember-tribute
 
 ## Prerequisites
 
