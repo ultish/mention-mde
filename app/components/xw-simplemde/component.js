@@ -7,7 +7,7 @@ export default Component.extend({
   actions: {
     tributeReplaced2: function() {
       // blur this textarea to force simplemde to process the text
-      $('.ember-text-area').blur();
+      $('.ember-text-area', this.get('element')).blur();
     }
   }
 });
