@@ -3,11 +3,15 @@ import { computed } from '@ember/object';
 
 export default Controller.extend({
   options: computed(function() {
+    let values = [];
+
+    values.push({ key: 'jxhui', value: 'Jimmy' });
+    for (let i = 0; i < 400; i++) {
+      values.push({ key: 'test' + i, value: 'test' + i });
+    }
+
     return {
-      values: [
-        { key: 'test', value: 'Test', email: 'getstarted@zurb.com' },
-        { key: 'jxhui', value: 'Jimmy', email: 'getstarted+riley@zurb.com' }
-      ]
+      values: values
     };
   })
 });
