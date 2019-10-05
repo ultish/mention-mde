@@ -1,11 +1,3 @@
-<h1>Simple</h1>
-{{#ui-tribute options=options target='.ember-text-area' tributeReplaced=(action 'tributeReplaced2')}}
-  {{simple-mde value=value change=(action (mut value))}}
-{{/ui-tribute}}
-<h1>Mention</h1>
-{{#ui-tribute options=options}}
-  <input type="text">
-{{/ui-tribute}}
 {{#ui-tribute options=options target='.ember-text-area' tributeReplaced=(action 'tributeReplaced2')}}
   {{simple-mde value=value change=(action (mut value))}}
 {{/ui-tribute}}
