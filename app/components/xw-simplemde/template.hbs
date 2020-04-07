@@ -1,3 +1,7 @@
-{{#ui-tribute options=options target='.ember-text-area' tributeReplaced=(action 'tributeReplaced2')}}
+{{#ui-tribute
+  options=options
+  target=".ember-text-area"
+  tributeReplaced=(action "tributeReplaced2")
+}}
   {{simple-mde value=value change=(action (mut value))}}
 {{/ui-tribute}}
