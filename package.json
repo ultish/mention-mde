@@ -42,7 +42,7 @@
     "ember-qunit": "3.5.3",
     "ember-resolver": "5.3.0",
     "ember-simplemde": "1.2.0",
-    "ember-source": "3.6.1",
+    "ember-source": "3.17.0",
     "ember-tribute": "0.1.2",
     "ember-welcome-page": "3.2.0",
     "eslint-plugin-ember": "5.4.0",
