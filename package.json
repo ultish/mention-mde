@@ -48,7 +48,7 @@
     "eslint-plugin-ember": "5.4.0",
     "loader.js": "4.7.0",
     "qunit-dom": "0.8.5",
-    "sass": "1.23.0"
+    "sass": "1.26.3"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
